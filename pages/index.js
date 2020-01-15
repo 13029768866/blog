@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Head from 'next/head'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import Author from '../components/author'
 import Advert from "../components/advert";
 import {Row, Col, List,Icon} from "antd";
@@ -67,6 +68,7 @@ const Home = () => {
                 </Col>
             </Row>
         </Head>
+        <Footer />
     </div>
     )
 }
