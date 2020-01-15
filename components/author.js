@@ -1,7 +1,7 @@
 import {Avatar,Divider} from "antd";
 import '../public/components/author.css';
 
-const author = () =>{
+const Author = () =>{
     return(
         <div className="author-div comm-box">
             <div>
@@ -18,4 +18,4 @@ const author = () =>{
     )
 }
 
-export default author;
+export default Author;

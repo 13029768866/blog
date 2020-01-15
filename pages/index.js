@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Head from 'next/head'
 import Header from '../components/header'
 import Author from '../components/author'
+import Advert from "../components/advert";
 import {Row, Col, List,Icon} from "antd";
 import "../public/pages/index.css"
 
@@ -62,6 +63,7 @@ const Home = () => {
                 </Col>
                 <Col className="comm-right" xs={0} sm={0} md={7} lg={5} xl={4}>
                     <Author />
+                    <Advert />
                 </Col>
             </Row>
         </Head>
