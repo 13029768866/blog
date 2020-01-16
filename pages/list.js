@@ -41,7 +41,7 @@ const myList = () => {
                                     视频教程
                                 </Breadcrumb.Item>
                             </Breadcrumb>
-                        </div>
+                        </div> 
                         <List
                             header={<div>最新日志</div>}
                             itemLayout="vertical"
